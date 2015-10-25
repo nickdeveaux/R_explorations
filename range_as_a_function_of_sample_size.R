@@ -1,3 +1,5 @@
+# Curious about range as a function of sample size of normal distribution
+
 N <- 200
 R <- 1000
 x = numeric(R)
