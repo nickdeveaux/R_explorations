@@ -16,6 +16,8 @@ for (i in 1:R) {
 
 plot(log(x), mean_spread)
 plot(x, exp(mean_spread))
+plot(x, 5^(mean_spread))
+
 
 fit <- lm(mean_spread ~ log(x))
 summary(fit)
